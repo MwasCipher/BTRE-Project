@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f792c796-d62b-43e6-812d-77aff2dc23f7" name="Default Changelist" comment="" />
+    <list default="true" id="f792c796-d62b-43e6-812d-77aff2dc23f7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/btre/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/btre/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/partials/_navbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/partials/_navbar.html" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,8 +35,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/btre/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="35" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
+            <state relative-caret-position="1110">
+              <caret line="74" column="1" selection-start-line="74" selection-end-line="74" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -50,15 +54,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/listings/listing.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="5" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/listings/listings.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="300">
@@ -70,17 +65,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/partials/_navbar.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="282">
-              <caret line="40" column="81" selection-start-line="40" selection-start-column="81" selection-end-line="40" selection-end-column="81" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/listings/search.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="10" selection-start-column="10" selection-end-column="10" />
+            <state relative-caret-position="105">
+              <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -97,9 +83,9 @@
         <option value="$PROJECT_DIR$/templates/listings/search.html" />
         <option value="$PROJECT_DIR$/listings/urls.py" />
         <option value="$PROJECT_DIR$/btre/urls.py" />
-        <option value="$PROJECT_DIR$/btre/settings.py" />
         <option value="$PROJECT_DIR$/templates/listings/listing.html" />
         <option value="$PROJECT_DIR$/templates/listings/listings.html" />
+        <option value="$PROJECT_DIR$/btre/settings.py" />
         <option value="$PROJECT_DIR$/templates/partials/_navbar.html" />
       </list>
     </option>
@@ -125,23 +111,7 @@
             <path>
               <item name="btre_project" type="b2602c69:ProjectViewProjectNode" />
               <item name="btre_project" type="462c0819:PsiDirectoryNode" />
-              <item name="btre" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="btre_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="btre_project" type="462c0819:PsiDirectoryNode" />
-              <item name="listings" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="btre_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="btre_project" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="btre_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="btre_project" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="listings" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="btre_project" type="b2602c69:ProjectViewProjectNode" />
@@ -187,7 +157,7 @@
   <component name="ToolWindowManager">
     <frame x="5" y="77" width="1346" height="728" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24981076" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.24981076" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -207,6 +177,20 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/templates/listings/listing.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="14" lean-forward="true" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/listings/search.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="10" selection-start-column="10" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/listings/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -223,8 +207,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/btre/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="35" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
+        <state relative-caret-position="1110">
+          <caret line="74" column="1" selection-start-line="74" selection-end-line="74" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -238,13 +222,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/listings/listing.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="5" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/listings/listings.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -252,17 +229,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/listings/search.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="10" selection-start-column="10" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/partials/_navbar.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="40" column="81" selection-start-line="40" selection-start-column="81" selection-end-line="40" selection-end-column="81" />
+        <state relative-caret-position="105">
+          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
         </state>
       </provider>
     </entry>
