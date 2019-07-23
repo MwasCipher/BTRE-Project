@@ -8,12 +8,12 @@ from .models import Listing
 def index(request):
     listings = Listing.objects.all()
 
-    paginator = Paginator(listings, 6)
-    page = request.Get.get('page')
-    paged_listing = paginator.get_page(page)
+    # paginator = Paginator(listings, 6)
+    # page = request.Get.get('page')
+    # paged_listings = paginator.get_page(page)
 
     context = {
-        'listings': paged_listing
+        'listings': listings
     }
     return render(request, 'listings/listings.html', context)
 
