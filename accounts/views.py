@@ -3,7 +3,7 @@ from django.shortcuts import render, redirect
 
 # Create your views here.
 
-def resister(request):
+def register(request):
 
     return render(request, 'accounts/register.html')
 
