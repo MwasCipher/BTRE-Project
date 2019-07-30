@@ -3,37 +3,36 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="ie=edge" http-equiv="X-UA-Compatible">
 
     <!-- Font Awesome -->
-  <link rel="stylesheet" href="{% static 'css/all.css' %}">
-  <!-- Bootstrap -->
-  <link rel="stylesheet" href="{% static 'css/bootstrap.css' %}">
-  <!-- Custom -->
-  <link rel="stylesheet" href="{% static 'css/style.css' %}">
-  <!-- Lighbox-->
-  <link rel="stylesheet" href="{% static 'css/lightbox.min.css' %}">
+    <link href="{% static 'css/all.css' %}" rel="stylesheet">
+    <!-- Bootstrap -->
+    <link href="{% static 'css/bootstrap.css' %}" rel="stylesheet">
+    <!-- Custom -->
+    <link href="{% static 'css/style.css' %}" rel="stylesheet">
+    <!-- Lighbox-->
+    <link href="{% static 'css/lightbox.min.css' %}" rel="stylesheet">
 
 
     <title>BT Real Estate</title>
 </head>
 <body>
 
-     <!-- Top Bar -->
-     {% include 'partials/_topbar.html' %}
-     <!-- Nav Bar -->
-     {% include 'partials/_navbar.html' %}
-    
-    {%block content%} {%endblock%}
-     <!-- Footer -->
-     {% include 'partials/_footer.html' %}
+<!-- Top Bar -->
+{% include 'partials/_topbar.html' %}
+<!-- Nav Bar -->
+{% include 'partials/_navbar.html' %}
 
-   
+{%block content%} {%endblock%}
+<!-- Footer -->
+{% include 'partials/_footer.html' %}
 
-    <script src="{% static 'js/jquery-3.3.1.min.js' %} "></script>
-    <script src="{% static 'js/bootstrap.bundle.min.js' %} "></script>
-    <script src="{% static 'js/lightbox.min.js' %} "></script>
-    <script src="{% static 'js/main.js' %}"></script>
+
+<script src="{% static 'js/jquery-3.3.1.min.js' %} "></script>
+<script src="{% static 'js/bootstrap.bundle.min.js' %} "></script>
+<script src="{% static 'js/lightbox.min.js' %} "></script>
+<script src="{% static 'js/main.js' %}"></script>
 </body>
 </html>
