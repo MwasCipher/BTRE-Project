@@ -138,10 +138,10 @@ MESSAGE_TAGS = {
 }
 
 # Email Config
-EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_PORT = 587
-EMAIL_HOST_USER = 'mwangiwawerucollins@gmail.com'
-EMAIL_HOST_PASSWORD = '0724657646'
-EMAIL_USE_TLS = True
+EMAIL_HOST = '127.0.0.1'
+EMAIL_PORT = 1025
+EMAIL_HOST_USER = 'dianarose96@protonmail.com'
+EMAIL_HOST_PASSWORD = 'Diana_Rose96'
+EMAIL_USE_TLS = False
 
 django_heroku.settings(locals())
